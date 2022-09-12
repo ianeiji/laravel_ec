@@ -1,1 +1,3 @@
-component-test1
+<x-tests.app>
+コンポーネントテスト1
+</x-tests.app>
