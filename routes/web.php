@@ -41,7 +41,8 @@ middleware('auth:users')->group(function(){
     ->name('cart.checkout');
     Route::get('success', [CartController::class,'success'])
     ->name('cart.success');
-
+    Route::get('cancel', [CartController::class,'cancel'])
+    ->name('cart.cancel');
 });
 
 // Route::get('/dashboard', function () {
