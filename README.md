@@ -5,17 +5,17 @@
 git clone
 git clone https://github.com/ianeiji/laravel_ec.git
 
-git clone ブランチを指定してdanioする場合
+git clone ブランチを指定してダウンロードする場合
 git clone -b ブランチ名 https://github.com/ianeiji/laravel_ec.git
 
 もしくはzipファイルでダウンロードしてください。
 
 ## インストール方法
 
--cd laravel_ec
--composer install
--npm install
--npm run dev
+*cd laravel_ec
+*composer install
+*npm install
+*npm run dev
 
 .env.example をコピーして .env ファイルを作成
 
