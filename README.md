@@ -12,10 +12,10 @@ git clone -b ブランチ名 https://github.com/ianeiji/laravel_ec.git
 
 ## インストール方法
 
-*cd laravel_ec
-*composer install
-*npm install
-*npm run dev
+* cd laravel_ec
+* composer install
+* npm install
+* npm run dev
 
 .env.example をコピーして .env ファイルを作成
 
