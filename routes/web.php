@@ -39,6 +39,8 @@ middleware('auth:users')->group(function(){
     ->name('cart.delete');
     Route::get('checkout', [CartController::class,'checkout'])
     ->name('cart.checkout');
+    Route::get('success', [CartController::class,'success'])
+    ->name('cart.success');
 
 });
 
